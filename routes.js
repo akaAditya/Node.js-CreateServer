@@ -11,6 +11,7 @@ const requestHandler = (req, res) => {
       res.write(
         `<body><h3>${data}</h3><form action="/message" method="POST"><input type="text" name="message"><button type="submit">Submit</button></form></body>`
       );
+      
       res.write("</html>");
       return res.end();
     });
