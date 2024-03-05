@@ -34,20 +34,7 @@ const requestHandler = (req, res) => {
     });
   }
 };
-// 1
-// module.exports= requestHandler;
+module.exports = requestHandler;
 
-// 2
-exports.handlers = requestHandler;
-exports.text = 'Code is successfully executed';
 
-// 3
-// module.exports.handlers = requestHandler;
-// module.exports.text = 'Code is successfully executed';
-
-// 4
-// module.exports = {
-//     handlers: requestHandler,
-//     text: 'Code is successfully executed'
-// }
 
